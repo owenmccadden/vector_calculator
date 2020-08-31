@@ -110,19 +110,6 @@ class Vector:
         print(uv.scale(scalar))
         return uv.scale(scalar)
 
-    # def get_cross_product(self, other):
-    #     if self.dimensions != other.dimensions:
-    #         raise ValueError("Vectors must have same Dimensions")
-    #     if self.dimensions == 2:
-    #         return Vector((self.values[0] * other.values[1]) - (self.values[1] * other.values[0]))
-    #     elif self.dimensions == 3:
-    #         return Vector(((self.values[1]*other.values[2]) - (self.values[2]*other.values[1])),
-    #                        ((self.values[0]*other.values[2]) - (self.values[2]*other.values[0])),
-    #                        ((self.values[0]*other.values[1]) - (self.values[1]*other.values[0])))
-    #     else:
-    #         print('error too many dimensions')
-    #         return None
-
     def is_perpendicular_to(self, other):
         if self.dimensions != other.dimensions:
             raise ValueError("Vectors must have same Dimensions")
