@@ -1,6 +1,13 @@
 # vector_calculator
 This repository provides a basic python class for representing vectors and performing vector operations.
 
+## Package Requirements
+
+
+| Software  | Package Requirements |
+| ------------- | ------------- |
+| Python  | NumPy  |
+
 ## Constructor
 
 The Vector.py file contains the code for the Vector class. The constructor of the Vector class accepts any number of comma-separated floating-point numbers 
