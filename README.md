@@ -1,5 +1,5 @@
 # vector_calculator
-This repository provides a basic python class for representing vectors and performing vector operations.
+This projectis a basic python class for representing vectors and performing vector operations.
 
 ## Package Requirements
 
@@ -11,7 +11,7 @@ This repository provides a basic python class for representing vectors and perfo
 ## Constructor
 
 The Vector.py file contains the code for the Vector class. The constructor of the Vector class accepts any number of comma-separated floating-point numbers 
-as input. Because of this, the class supports all n-dimensional vectors.
+as input. The class supports all n-dimensional vectors.
 
 ## Methods
 
@@ -20,8 +20,6 @@ subtraction, dot-product, and cross-product. All other operators are written as 
 
 Operators that take in another vector as a parameter assume the vectors are of the same length. These operaors will raise a ValueError if 
 the two vectors do not have the same number of dimensions.
-
-All operators both return the output of the operation and print the output to the console.
 
 ### +
 
@@ -55,7 +53,7 @@ The get_unit_vector method returns a unit vector in the direction of the origina
 ### get_interior_angle(other, radians=True)
 
 The get_interior_angle method accepts another vector and a boolean as parameters. The method calculates the interior angle 
-between the original vector and the other vector in radians if the boolean is True and degrees if it is false.
+between the original vector and the other vector in radians if the boolean is True and in degrees if it is false.
 
 ### get_scalar_projection(other)
 
